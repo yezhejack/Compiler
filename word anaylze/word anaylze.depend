@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1430021198 source:d:\workspace\word anaylze\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+

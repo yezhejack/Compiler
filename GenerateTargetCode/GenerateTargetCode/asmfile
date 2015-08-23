@@ -1,0 +1,89 @@
+.model flat, stdcall
+.stack 2048
+option casemap : none
+includelib	msvcrt.lib
+printf		proto c : ptr byte, : vararg
+scanf		proto c : ptr byte, : vararg
+_getche		proto c
+ExitProcess 	proto : dword
+.data
+num1  dword   ?
+num2  dword   ?
+num3  dword   ?
+fl  dword   ?
+t0  dword   ?
+t1  dword   ?
+t2  dword   ?
+t3  dword   ?
+t4  dword   ?
+t5  dword   ?
+t6  dword   ?
+t7  dword   ?
+t8  dword   ?
+t9  dword   ?
+t10  dword   ?
+t11  dword   ?
+t12  dword   ?
+t13  dword   ?
+.code
+main proc
+0:mov eax 0
+mov t0 eax
+1:mov eax t0
+mov flag eax
+2:mov eax 1
+mov t1 eax
+3:mov eax t1
+mov num1 eax
+4:mov eax 1
+mov t2 eax
+5:mov eax num1
+add eax t2
+mov t3 eax
+6:mov eax t3
+mov num2 eax
+7:mov eax num2
+add eax num2
+mov t4 eax
+8:mov eax num1
+add eax t4
+mov t5 eax
+9:mov eax t5
+mov num3 eax
+10:mov eax 20
+mov t6 eax
+11:cmp num2 t6
+ja 18
+12:mov eax num1
+mul num2
+mov t7 eax
+13:mov eax t7
+mov num1 eax
+14:mov eax 1
+mov t8 eax
+15:mov eax num2
+sub eax t8
+mov t9 eax
+16:mov eax t9
+mov num2 eax
+17:jmp 11
+18:mov eax 0
+mov t10 eax
+19:cmp flag t10
+jne 24
+20:mov eax 5
+mov t11 eax
+21:mov eax num1
+mov ebx t11
+div 
+mov t12 eax
+22:mov eax t12
+mov num1 eax
+23:jmp 26
+24:mov eax num3
+sub eax num1
+mov t13 eax
+25:mov eax t13
+mov num2 eax
+main endp
+end main

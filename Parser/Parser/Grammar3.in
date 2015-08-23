@@ -1,0 +1,54 @@
+49
+S' S $
+S FunDec 2 B 3 $
+B E $
+B E B $
+B IF 40 $
+B IF 40 B $
+B WHILE 42 $
+B WHILE 42 B $
+B Dec $
+B Dec B $
+IF 12 38 LOG 39 B $
+LOG E1 LOG_OP E1 $
+LOG_OP 21 $
+LOG_OP 22 $
+LOG_OP 23 $
+LOG_OP 24 $
+LOG_OP 25 $
+LOG_OP 26 $
+WHILE 11 38 LOG 39 B $
+E Left 31 E1 $
+Left 34 $
+E1 34 OP E1 $
+E1 38 E1 39 $
+E1 34 $
+E1 35 $
+E1 36 $
+E1 37 $
+OP 27 $
+OP 28 $
+OP 29 $
+OP 30 $
+OP 15 $
+OP 18 $
+OP 19 $
+OP 20 $
+OP 32 $
+OP 33 $
+FunDec Type 34 38 PList 39 $
+FunDec Type 34 38 39 $
+Dec Type 34 $
+Dec Type 34 38 39 $
+Dec Type 34 47 35 48 $
+Type 4 $
+Type 5 $
+Type 6 $
+Type 7 $
+Type 8 $
+PList Type 34 $
+PList Type 34 PList $
+
+
+
+

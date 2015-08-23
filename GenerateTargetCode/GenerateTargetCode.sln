@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GenerateTargetCode", "GenerateTargetCode\GenerateTargetCode.vcxproj", "{F46A4CFF-9DA9-4BBD-8E96-CFC2B37FBBC0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "movtest", "..\ASM-Solution\movtest\movtest.vcxproj", "{337D001B-D540-44FF-8E8B-B1A92AE9A210}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F46A4CFF-9DA9-4BBD-8E96-CFC2B37FBBC0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F46A4CFF-9DA9-4BBD-8E96-CFC2B37FBBC0}.Debug|Win32.Build.0 = Debug|Win32
+		{F46A4CFF-9DA9-4BBD-8E96-CFC2B37FBBC0}.Release|Win32.ActiveCfg = Release|Win32
+		{F46A4CFF-9DA9-4BBD-8E96-CFC2B37FBBC0}.Release|Win32.Build.0 = Release|Win32
+		{337D001B-D540-44FF-8E8B-B1A92AE9A210}.Debug|Win32.ActiveCfg = Debug|Win32
+		{337D001B-D540-44FF-8E8B-B1A92AE9A210}.Debug|Win32.Build.0 = Debug|Win32
+		{337D001B-D540-44FF-8E8B-B1A92AE9A210}.Release|Win32.ActiveCfg = Release|Win32
+		{337D001B-D540-44FF-8E8B-B1A92AE9A210}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
